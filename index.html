@@ -173,7 +173,7 @@
 <section id="eng-pics" class="section-padding">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-15 text-center">
+            <div class="col-md-12 text-center">
                 <h3 class="header">Engagement Pictures</h3>
             </div>
         </div>
@@ -357,41 +357,53 @@
                       action=""
                       method="POST">
                     <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
-                                                                     placeholder="Your email"
+                      <div class="col-md-6 col-sm-6">
+                          <div class="form-input-group">
+                              <i class="fa fa-user"></i><input name="name" class=""
+                                                               placeholder="Your name"
+                                                               required>
+                          </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6">
+                          <div class="form-input-group">
+                              <i class="fa fa-envelope"></i><input type="Text" name="livestream" class=""
+                                                                     placeholder="Attend livestream? (Yes/No)"
                                                                      required>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="name" class=""
-                                                                 placeholder="Your name"
-                                                                 required>
-                            </div>
-                        </div>
+                          </div>
+                      </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
-                                                                  max="4"
-                                                                  placeholder="Number of guests"
-                                                                  required>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-key"></i><input type="text" name="event_attend" class="" list="events">
-                                  <datalist id="events">
-                                    <option value="I will attend the backyard wedding">
-                                    <option value="I will attend the temple wedding">
-                                    <option value="I will attend both">
-                                    <option value="I will watch the live stream">
-                                  </datalist>
-                            </div>
-                        </div>
+                      <div class="col-md-6 col-sm-6">
+                          <div class="form-input-group">
+                              <i class="fa fa-envelope"></i><input type="email" name="email" class=""
+                                                                     placeholder="Your email"
+                                                                     required>
+                          </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6">
+                          <div class="form-input-group">
+                              <i class="fa fa-envelope"></i><input type="button" name="backyeard" class=""
+                                                                     placeholder="I will attend backyeard wedding"
+                                                                     required>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6">
+                          <div class="form-input-group">
+                              <i class="fa fa-users"></i><input type="tel" name="phone" class=""
+                                                                placeholder="Phone number"
+                                                                required>
+                          </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6">
+                          <div class="form-input-group">
+                              <i class="fa fa-envelope"></i><input type="button" name="temple" class=""
+                                                                     placeholder="I will attend temple wedding"
+                                                                     required>
+                          </div>
+                      </div>
+
                     </div>
                     <div class="row">
                         <div class="col-md-12" id="alert-wrapper"></div>
